@@ -12,92 +12,98 @@
       color: #ffffff;
       line-height: 1.6;
     }
-    h1, h2 {
-      color: #ffffff;
-    }
-    .last-updated {
-      color: #aaaaaa;
-      font-size: 0.9rem;
-      margin-bottom: 1rem;
-    }
-    .section-title {
-      margin-top: 1.5rem;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-    .bullet-point {
-      margin-left: 1.5rem;
-    }
-    .footer {
-      margin-top: 2rem;
-      color: #888888;
-      font-size: 0.9rem;
-    }
+    h1, h2 { color: #ffffff; }
+    .last-updated { color: #aaaaaa; font-size: 0.9rem; margin-bottom: 1rem; }
+    .section-title { margin-top: 1.5rem; font-weight: bold; font-size: 1.2rem; }
+    .bullet-point { margin-left: 1.5rem; }
+    .footer { margin-top: 2rem; color: #888888; font-size: 0.9rem; }
+    strong { font-weight: 600; }
+    a { color: #00baff; text-decoration: none; }
   </style>
 </head>
 <body>
 
   <h1>Politique de Confidentialité</h1>
-  <p class="last-updated">Dernière mise à jour : 19 juillet 2025</p>
+  <p class="last-updated">Dernière mise à jour : 3 août 2025</p>
 
   <p>
-    L'application Think-it, développée par Antoine Crévola, respecte la vie privée de ses utilisateurs et s'engage à protéger les informations personnelles qui pourraient être collectées dans le cadre de l'utilisation de l'application.
+    L'application <strong>Think-it</strong>, développée par <strong>Antoine Crévola</strong>, respecte la vie privée de ses utilisateurs et s'engage à protéger les informations personnelles collectées dans le cadre de l'utilisation de l'application.
   </p>
 
   <div class="section-title">1. Données collectées</div>
-  <p>
-    L'application ne collecte aucune donnée personnelle identifiable sans le consentement explicite de l'utilisateur. Aucune donnée comme le nom, l'adresse e-mail, la localisation ou l'identifiant de l'appareil n'est utilisée à des fins de suivi ou de revente.
-  </p>
+  <p>Pour permettre le fonctionnement de l'application, nous collectons les données suivantes :</p>
+  <ul class="bullet-point">
+    <li><strong>Données d'identification</strong> : email, nom d'affichage, identifiant unique Firebase</li>
+    <li><strong>Profil utilisateur</strong> : biographie, avatar, couleurs personnalisées, lien PayPal (optionnel)</li>
+    <li><strong>Contenu créé</strong> : vos réponses aux questions philosophiques</li>
+    <li><strong>Relations sociales</strong> : liste d'amis et demandes d'amitié</li>
+    <li><strong>Données d'usage</strong> : préférences, statistiques, horodatages d'activité</li>
+  </ul>
+  <p>Toutes ces données sont stockées de manière sécurisée sur les serveurs <strong>Firebase</strong> de Google.</p>
 
   <div class="section-title">2. Utilisation des données</div>
-  <p>
-    Dans le cas où des données techniques anonymes (telles que les performances de l'application, les erreurs, ou les préférences utilisateur) sont collectées, elles sont utilisées uniquement pour :
-  </p>
+  <p>Les données collectées sont utilisées uniquement pour :</p>
   <ul class="bullet-point">
-    <li>améliorer le bon fonctionnement de l'application,</li>
-    <li>corriger des bugs éventuels,</li>
-    <li>optimiser l'expérience utilisateur.</li>
+    <li>permettre l'authentification et la gestion de votre compte,</li>
+    <li>afficher votre profil et vos réponses à vos amis,</li>
+    <li>gérer les relations d'amitié et les demandes,</li>
+    <li>personnaliser votre expérience (thème, notifications),</li>
+    <li>améliorer le fonctionnement de l'application.</li>
   </ul>
-  <p>Ces données ne permettent pas d'identifier personnellement l'utilisateur.</p>
+  <p>Vos réponses aux questions ne sont visibles que par vous et vos amis acceptés.</p>
 
-  <div class="section-title">3. Cookies et technologies similaires</div>
-  <p>
-    L'application ne recourt pas à des cookies ou traceurs publicitaires.<br>
-    Aucune technologie de suivi tiers n'est intégrée (pas de SDK publicitaire, ni d'outils de profilage).
-  </p>
-
-  <div class="section-title">4. Partage des données</div>
-  <p>
-    Aucune donnée n'est partagée avec des tiers.<br>
-    L'application fonctionne localement sur le téléphone et ne transmet rien à des serveurs externes, sauf indication contraire et acceptation explicite de l'utilisateur.
-  </p>
-
-  <div class="section-title">5. Sécurité</div>
-  <p>
-    Des mesures techniques raisonnables sont mises en œuvre pour garantir la sécurité des données stockées localement sur l'appareil.
-  </p>
-
-  <div class="section-title">6. Droits des utilisateurs</div>
-  <p>
-    Conformément au Règlement Général sur la Protection des Données (RGPD), vous pouvez :
-  </p>
+  <div class="section-title">3. Stockage et sécurité</div>
+  <p>Vos données sont stockées sur les serveurs sécurisés de Firebase (Google Cloud Platform) avec les protections suivantes :</p>
   <ul class="bullet-point">
-    <li>demander des informations sur les éventuelles données collectées,</li>
-    <li>demander leur suppression ou leur rectification.</li>
+    <li>Chiffrement en transit et au repos,</li>
+    <li>Authentification sécurisée,</li>
+    <li>Règles de sécurité Firestore strictes.</li>
   </ul>
+  <p>Nous n'avons pas d'accès direct à vos données personnelles.</p>
+
+  <div class="section-title">4. Cookies et technologies similaires</div>
   <p>
-    Pour toute demande liée à la vie privée, vous pouvez me contacter à l'adresse suivante : <strong>vms.aca@gmail.com</strong>
+    L'application ne recourt pas à des cookies publicitaires ou traceurs tiers.
+    Aucune technologie de suivi publicitaire n'est intégrée.
   </p>
 
-  <div class="section-title">7. Modifications de cette politique</div>
+  <div class="section-title">5. Partage des données</div>
+  <p>Vos données ne sont partagées qu'avec :</p>
+  <ul class="bullet-point">
+    <li><strong>Vos amis acceptés</strong> : ils peuvent voir votre nom, avatar et réponses visibles dans l’app,</li>
+    <li><strong>Google Firebase</strong> : pour le stockage et l'authentification.</li>
+  </ul>
+  <p>Aucune donnée n'est vendue ou louée à des tiers commerciaux.</p>
+
+  <div class="section-title">6. Droits des utilisateurs (RGPD)</div>
+  <p>Vous pouvez :</p>
+  <ul class="bullet-point">
+    <li>accéder à toutes vos données personnelles,</li>
+    <li>modifier ou supprimer votre compte,</li>
+    <li>supprimer vos réponses individuellement,</li>
+    <li>retirer votre consentement à tout moment.</li>
+  </ul>
+  <p>Pour toute demande liée à la vie privée : <a href="mailto:vms.aca@gmail.com">vms.aca@gmail.com</a></p>
+
+  <div class="section-title">7. Suppression des données</div>
+  <p>Lors de la suppression de votre compte, toutes vos données sont définitivement supprimées :</p>
+  <ul class="bullet-point">
+    <li>Profil utilisateur,</li>
+    <li>Toutes vos réponses,</li>
+    <li>Relations d'amitié.</li>
+  </ul>
+  <p>Cette suppression est irréversible.</p>
+
+  <div class="section-title">8. Modifications de cette politique</div>
   <p>
-    Cette politique de confidentialité peut être mise à jour à tout moment. En cas de changement significatif, les utilisateurs seront informés via une mise à jour de l'application.
+    Cette politique de confidentialité peut être mise à jour. En cas de changement significatif, les utilisateurs seront informés via une mise à jour de l'application.
   </p>
 
   <p class="footer">
     Développeur : Antoine Crévola<br>
-    E-mail de contact : vms.aca@gmail.com<br>
-    Pays de résidence : France
+    E-mail de contact : <a href="mailto:vms.aca@gmail.com">vms.aca@gmail.com</a><br>
+    Pays de résidence : France<br>
+    Hébergeur : Google Firebase (États-Unis)
   </p>
 
 </body>
